@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Заняття та вартість — Стежинка до знань | Івано-Франківськ
+    </title>
+
+    <meta name="description" content="Заняття для дітей 2–7 років: ранній розвиток, англійська мова, творчі заняття. Івано-Франківськ.">
+
+
+    <link rel="icon" href="assets/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    />
+
+    <!-- Your site styles -->
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+<!-- TOP BAR -->
+<div class="topbar bg-dark">
+    <div class="container d-flex flex-wrap align-items-center py-2 small">
+
+        <div class="d-none d-md-flex d-flex flex-wrap align-items-center gap-3 text-white-50">
+            <a class="topbar-link text-white-50" href="mailto:stezhunkacentr@gmail.com">stezhunkacentr@gmail.com</a>
+            <a class="topbar-link text-white-50" href="tel:+380985913123">+380985913123</a>
+        </div>
+
+        <div class="d-flex gap-2 ms-auto">
+            <a class="topbar-link text-white" href="https://www.instagram.com/stezhynka.centr" aria-label="Instagram">Instagram</a>
+            <span class="topbar-link text-white">|</span>
+            <a class="topbar-link text-white" href="https://www.facebook.com/profile.php?id=100075668005630" aria-label="Facebook">Facebook</a>
+        </div>
+    </div>
+</div>
+<!-- TOP BAR END-->
+
+<header class="page-header">
+    <div class="container">
+        <!-- NAV PILL -->
+        <div class="navpill-wrap pt-3 pt-lg-4">
+            <div class="navpill">
+                <a class="brand d-flex align-items-center gap-3 text-decoration-none" href="./">
+                    <img
+                            src="assets/images/logo-90.png"
+                            alt="Стежинка до знань"
+                            class="brand-logo"
+                    />
+                    <span class="d-flex flex-column lh-sm">
+                      <span class="brand-name">СТЕЖИНКА ДО ЗНАНЬ</span>
+                      <span class="brand-sub">центр розвитку дитини</span>
+                    </span>
+                </a>
+
+                <nav class="navpill-menu d-none d-md-flex align-items-center gap-4">
+                    <a class="navpill-link" href="./about.html">Про нас</a>
+                    <a class="navpill-link" href="./lessons.html">Заняття та вартість</a>
+                    <a class="navpill-link" href="./schedule.html">Розклад</a>
+                    <a class="navpill-link" href="./contacts.html">Контакти</a>
+                </nav>
+
+                <!-- MOBILE BUTTON -->
+                <button
+                        class="btn btn-pill btn-ghost d-md-none"
+                        type="button"
+                        id="mobile-menu-btn"
+                        aria-label="Відкрити меню"
+                        aria-expanded="false"
+                >
+                    <svg
+                            class="burger-icon"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                    >
+                        <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+
+                <div id="mobile-menu" class="mobile-menu d-md-none" hidden>
+                    <a href="./about.html">Про нас</a>
+                    <a href="./lessons.html">Заняття та вартість</a>
+                    <a href="./schedule.html">Розклад</a>
+                    <a href="./contacts.html">Контакти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+        <div class="py-4 py-lg-5">
+            <h1 class="page-title">Заняття та вартість</h1>
+
+            <!-- category line like on example -->
+            <div class="lessons-cats mt-3">
+                <a class="lessons-cat" href="#early">Ранній розвиток</a>
+                <a class="lessons-cat" href="#mini-kindergarten">Міні-садок</a>
+                <a class="lessons-cat" href="#school-prep">Підготовка до школи</a>
+                <a class="lessons-cat" href="#english">Англійська мова</a>
+                <a class="lessons-cat" href="#speech-therapy">Логопедичні заняття</a>
+                <a class="lessons-cat" href="#homework-help">Допомога з домашніми завданнями</a>
+                <a class="lessons-cat" href="#creative">Творчість</a>
+
+            </div>
+        </div>
+    </div>
+
+
+<main class="page-content">
+    <div class="container pb-5">
+
+        <!-- 1) Early development -->
+        <section id="early" class="lesson-section">
+            <h2 class="lesson-title">Ранній розвиток дітей (2–6 років)</h2>
+
+            <div class="lesson-card lesson-card-price">
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- LEFT: DESCRIPTION -->
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+
+                            <p class="lesson-intro">
+                                Ранній розвиток — це ніжний і радісний старт у навчанні, де дитина
+                                пізнає світ через гру, рух і творчість.
+                            </p>
+
+                            <p>
+                                Наші заняття допомагають малюкам розвивати мовлення, мислення,
+                                уяву та соціальні навички в комфортній і безпечній атмосфері.
+                            </p>
+
+                            <p class="fw-semibold">
+                                Ми працюємо з любов’ю до кожної дитини, враховуючи вік,
+                                темп розвитку та індивідуальні особливості.
+                            </p>
+
+                            <div class="lesson-subtitle mt-4">
+                                НА ЗАНЯТТЯХ ДІТИ:
+                            </div>
+
+                            <ul class="lesson-list">
+                                <li>розвивають пам’ять, увагу та логічне мислення</li>
+                                <li>збагачують словниковий запас і мовлення</li>
+                                <li>займаються творчістю (ліплення, малювання, аплікації)</li>
+                                <li>виконують руханки та вправи на дрібну моторику</li>
+                                <li>вчаться спілкуванню та взаємодії з однолітками</li>
+                            </ul>
+
+                            <p class="mt-3">
+                                Заняття проходять у міні-групах або індивідуально,
+                                у спокійній, доброзичливій атмосфері.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: PRICE -->
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+
+                            <div class="lesson-subtitle">
+                                ВАРТІСТЬ
+                            </div>
+
+                            <div class="lesson-pricegrid">
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Міні-групи (3–6 дітей)<br />
+                                        1 заняття (45–60 хв)
+                                    </div>
+                                    <div class="lesson-price__value">250 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Абонемент<br />
+                                        8 занять
+                                    </div>
+                                    <div class="lesson-price__value">2000 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Індивідуальне заняття
+                                    </div>
+                                    <div class="lesson-price__value">350 грн</div>
+                                </div>
+
+                            </div>
+
+                            <p class="lesson-note mt-3">
+                                Тривалість та графік підбираємо з урахуванням віку дитини.<br />
+                                Заняття проходять у затишному, спеціально облаштованому просторі.
+                            </p>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta w-100"
+                                   href="mailto:stezhunkacentr@gmail.com">
+                                    ЗАПИСАТИСЯ
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 2) Mini-kindergarten -->
+        <section id="mini-kindergarten" class="lesson-section lesson-card-price">
+            <h2 class="lesson-title">Міні садочок (2–6 років)</h2>
+
+            <div class="lesson-card lesson-card-price">
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- LEFT: DESCRIPTION -->
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+
+                            <p class="lesson-intro">
+                                Міні садочок — це комфортний простір, де дитина почувається як вдома,
+                                навчається через гру та щодня відкриває світ у власному темпі.
+                            </p>
+
+                            <p>
+                                Невеликі групи, уважні педагоги та тепла атмосфера допомагають малюкам
+                                легко адаптуватися, розвиватися й радіти кожному дню.
+                            </p>
+
+                            <p class="fw-semibold">
+                                Ми поєднуємо турботу, навчання та творчість, щоб дитинство було щасливим і наповненим.
+                            </p>
+
+                            <div class="lesson-subtitle mt-4">
+                                ЯК ПРОХОДИТЬ ДЕНЬ У МІНІ САДОЧКУ
+                            </div>
+
+                            <p class="mb-2">
+                                Програма адаптована до віку та потреб дітей і включає:
+                            </p>
+
+                            <ul class="lesson-list">
+                                <li>розвиток мовлення та комунікації</li>
+                                <li>логіко-математичні ігри</li>
+                                <li>розвиток дрібної та загальної моторики</li>
+                                <li>творчі заняття (малювання, ліплення, аплікації)</li>
+                                <li>музичні та ритмічні ігри</li>
+                                <li>читання казок і тематичні заняття</li>
+                                <li>рухливі ігри та активності</li>
+                                <li>формування самостійності та соціальних навичок</li>
+                            </ul>
+
+                            <p class="mt-3 fw-semibold">
+                                Усе — у спокійному темпі, без перевантаження та з любов’ю до кожної дитини.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: FORMAT + PRICE -->
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+
+                            <div class="lesson-subtitle">
+                                ФОРМАТ ПЕРЕБУВАННЯ
+                            </div>
+
+                            <ul class="lesson-list">
+                                <li>Пів дня (2–4 години)</li>
+                                <li>Повний день (за домовленістю)</li>
+                                <li>Міні-групи до 6 дітей</li>
+                                <li>Можливе відвідування кілька разів на тиждень або щоденно</li>
+                            </ul>
+
+                            <div class="lesson-subtitle mt-4">
+                                ВАРТІСТЬ
+                            </div>
+
+                            <div class="lesson-pricegrid">
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Пів дня<br />
+                                        1 день
+                                    </div>
+                                    <div class="lesson-price__value">700 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Пів дня<br />
+                                        Абонемент на місяць
+                                    </div>
+                                    <div class="lesson-price__value">7800 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Повний день<br />
+                                        1 день
+                                    </div>
+                                    <div class="lesson-price__value">800 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Повний день<br />
+                                        Абонемент на місяць
+                                    </div>
+                                    <div class="lesson-price__value">10200 грн</div>
+                                </div>
+
+                            </div>
+
+                            <p class="lesson-note mt-3">
+                                Харчування / перекуси — за домовленістю.<br />
+                                Усі матеріали для занять включені у вартість.
+                            </p>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta w-100"
+                                   href="mailto:stezhunkacentr@gmail.com">
+                                    ЗАПИСАТИСЯ
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3) School prep -->
+        <section id="school-prep" class="lesson-section">
+            <h2 class="lesson-title">Підготовка до школи (5–7 років)</h2>
+
+            <div class="lesson-card lesson-card-price">
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- LEFT: DESCRIPTION -->
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+
+                            <p class="lesson-intro">
+                                Підготовка до школи — це впевнений старт у навчанні без стресу та перевантаження.
+                            </p>
+
+                            <p>
+                                Наші заняття допомагають дитині набути необхідних знань і навичок,
+                                розвинути самостійність, уважність і любов до навчання.
+                            </p>
+
+                            <p class="fw-semibold">
+                                Ми працюємо у спокійному темпі, з урахуванням вікових та індивідуальних
+                                особливостей кожної дитини.
+                            </p>
+
+                            <div class="lesson-subtitle mt-4">
+                                ЩО ВХОДИТЬ У ПРОГРАМУ
+                            </div>
+
+                            <p class="mb-2">На заняттях діти:</p>
+
+                            <ul class="lesson-list">
+                                <li>вивчають букви, звуки, читання та підготовку до письма</li>
+                                <li>розвивають дрібну моторику руки та графомоторні навички</li>
+                                <li>опановують лічбу, числа, логіку та елементарну математику</li>
+                                <li>тренують пам’ять, увагу та мислення</li>
+                                <li>розвивають мовлення та зв’язне висловлювання думок</li>
+                                <li>вчаться працювати за інструкцією та виконувати завдання</li>
+                                <li>формують навички поведінки в колективі</li>
+                            </ul>
+
+                            <p class="mt-3">
+                                Заняття проходять у форматі гри, практичних вправ та цікавих завдань.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: FORMAT + PRICE -->
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+
+                            <div class="lesson-subtitle">
+                                ФОРМАТ ЗАНЯТЬ
+                            </div>
+
+                            <ul class="lesson-list">
+                                <li>Міні-групи до 8 дітей</li>
+                                <li>Індивідуальні заняття — за потреби</li>
+                                <li>Тривалість заняття: 60 хвилин</li>
+                                <li>2–3 рази на тиждень</li>
+                            </ul>
+
+                            <div class="lesson-subtitle mt-4">
+                                ВАРТІСТЬ
+                            </div>
+
+                            <div class="lesson-pricegrid">
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Міні-групи<br />
+                                        1 заняття
+                                    </div>
+                                    <div class="lesson-price__value">250 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Міні-групи<br />
+                                        Абонемент на 8 занять
+                                    </div>
+                                    <div class="lesson-price__value">2000 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Індивідуальне заняття
+                                    </div>
+                                    <div class="lesson-price__value">350 грн</div>
+                                </div>
+
+                            </div>
+
+                            <p class="lesson-note mt-3">
+                                Усі навчальні матеріали включені у вартість.<br />
+                                Графік занять підбираємо індивідуально.
+                            </p>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta w-100"
+                                   href="mailto:stezhunkacentr@gmail.com">
+                                    ЗАПИСАТИСЯ
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 4) English -->
+        <section id="english" class="lesson-section">
+            <h2 class="lesson-title">Англійська мова для дітей (4–10 років)</h2>
+
+            <div class="lesson-card  lesson-card-price">
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- LEFT -->
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+
+                            <p class="lesson-intro">
+                                Заняття з англійської проходять у ігровій формі та спрямовані
+                                на розвиток розуміння мови, правильної вимови й упевненого мовлення.
+                            </p>
+
+                            <div class="lesson-subtitle mt-4">
+                                ГРУПОВІ ЗАНЯТТЯ:
+                            </div>
+
+                            <ul class="lesson-list">
+                                <li>міні-групи 3–6 дітей</li>
+                                <li>тривалість: 45–60 хв</li>
+                                <li>ігри, пісні, картки, діалоги</li>
+                                <li>розвиток словникового запасу та слухового сприйняття</li>
+                            </ul>
+
+                            <div class="lesson-subtitle mt-3">
+                                ІНДИВІДУАЛЬНІ ЗАНЯТТЯ:
+                            </div>
+
+                            <ul class="lesson-list">
+                                <li>індивідуальний підхід</li>
+                                <li>темп і програма під дитину</li>
+                                <li>підготовка до школи та допомога зі шкільною програмою</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+
+                            <div class="lesson-subtitle">
+                                ВАРТІСТЬ
+                            </div>
+
+                            <div class="lesson-pricegrid">
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Групове заняття<br />1 заняття
+                                    </div>
+                                    <div class="lesson-price__value">250 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Групові заняття<br />Абонемент на 8
+                                    </div>
+                                    <div class="lesson-price__value">2000 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Індивідуальне заняття<br />(45–60 хв)
+                                    </div>
+                                    <div class="lesson-price__value">400 грн</div>
+                                </div>
+                            </div>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta w-100"
+                                   href="mailto:stezhunkacentr@gmail.com">
+                                    ЗАПИСАТИСЯ
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5) speech therapist -->
+        <section id="speech-therapy" class="lesson-section">
+            <h2 class="lesson-title">Логопедичні заняття (3–10 років)</h2>
+
+            <div class="lesson-card lesson-card-price">
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- LEFT -->
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+
+                            <p class="lesson-intro">
+                                Логопед допомагає дитині подолати мовленнєві труднощі,
+                                сформувати правильну вимову та впевнене мовлення.
+                            </p>
+
+                            <div class="lesson-subtitle mt-4">
+                                ГРУПОВІ ЗАНЯТТЯ:
+                            </div>
+
+                            <ul class="lesson-list">
+                                <li>міні-групи до 4 дітей</li>
+                                <li>тривалість: 40–45 хв</li>
+                                <li>артикуляційні вправи</li>
+                                <li>розвиток мовлення та дихання</li>
+                                <li>робота над звуками у формі гри</li>
+                            </ul>
+
+                            <div class="lesson-subtitle mt-3">
+                                ІНДИВІДУАЛЬНІ ЗАНЯТТЯ:
+                            </div>
+
+                            <ul class="lesson-list">
+                                <li>первинна діагностика</li>
+                                <li>індивідуальна корекційна програма</li>
+                                <li>постановка та автоматизація звуків</li>
+                                <li>робота з темпом і чіткістю мовлення</li>
+                            </ul>
+
+                            <p class="fw-semibold mt-3">
+                                Усі матеріали включені у вартість.
+                                Графік підбирається індивідуально.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+
+                            <div class="lesson-subtitle">
+                                ВАРТІСТЬ
+                            </div>
+
+                            <div class="lesson-pricegrid">
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Групове заняття<br />1 заняття
+                                    </div>
+                                    <div class="lesson-price__value">350 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Групові заняття<br />Абонемент на 8
+                                    </div>
+                                    <div class="lesson-price__value">3500 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Індивідуальне заняття
+                                    </div>
+                                    <div class="lesson-price__value">500 грн</div>
+                                </div>
+
+                            </div>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta w-100"
+                                   href="mailto:stezhunkacentr@gmail.com">
+                                    ЗАПИСАТИСЯ
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 7) individual -->
+        <section id="homework-help" class="lesson-section">
+            <h2 class="lesson-title">Індивідуальна допомога з домашніми завданнями (1–6 клас)</h2>
+
+            <div class="lesson-card lesson-card-price">
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- LEFT -->
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+
+                            <p class="lesson-intro">
+                                Допомога з домашніми завданнями — це підтримка дитини у навчанні без стресу та сліз.
+                                Пояснюємо матеріал зрозуміло, допомагаємо розібратися з темами та формуємо самостійність.
+                            </p>
+
+                            <div class="lesson-subtitle mt-4">ПРАЦЮЄМО З:</div>
+                            <ul class="lesson-list">
+                                <li>українською мовою та читанням</li>
+                                <li>математикою</li>
+                                <li>іншими шкільними предметами</li>
+                            </ul>
+
+                            <div class="lesson-subtitle mt-3">ФОРМАТ ЗАНЯТЬ:</div>
+                            <ul class="lesson-list">
+                                <li>індивідуально</li>
+                                <li>спокійний темп</li>
+                                <li>пояснення «до розуміння», а не механічне виконання</li>
+                            </ul>
+
+                            <p class="fw-semibold mt-3 mb-0">Тривалість: 60 хв</p>
+
+                            <hr class="my-4" />
+
+                            <div class="lesson-subtitle">ДОДАТКОВО:</div>
+                            <ul class="lesson-list">
+                                <li>заняття офлайн / онлайн</li>
+                                <li>усі матеріали включені у вартість</li>
+                                <li>графік підбираємо індивідуально</li>
+                                <li>можливе поєднання: підготовка до школи + домашні завдання</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+
+                            <div class="lesson-subtitle">ВАРТІСТЬ</div>
+
+                            <div class="lesson-pricegrid">
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        1 заняття<br />(60 хв)
+                                    </div>
+                                    <div class="lesson-price__value">350–400 грн</div>
+                                </div>
+
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">
+                                        Абонемент<br />(8 занять)
+                                    </div>
+                                    <div class="lesson-price__value">від 2600–3800 грн</div>
+                                </div>
+
+                            </div>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta w-100"
+                                   href="mailto:stezhunkacentr@gmail.com">
+                                    ЗАПИСАТИСЯ
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 7) Creative -->
+        <section id="creative" class="lesson-section">
+            <h2 class="lesson-title">Творча майстерня</h2>
+
+            <div class="lesson-card lesson-card-price">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+                            <div class="lesson-subtitle">РОЗВИВАЮЧІ НАВИЧКИ:</div>
+                            <ul class="lesson-list">
+                                <li>Творчість</li>
+                                <li>Майстер класи</li>
+                                <li>Кулінарна майстерня</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+                            <div class="lesson-note">вартість занять уточнюйте у адміністратора</div>
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta w-100" href="mailto:stezhunkacentr@gmail.com">ЗАПИСАТИСЯ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<div id="question-banner"></div>
+<div id="small-footer"></div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/main.js"></script>
+</body>
+</html>
